@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(44, 194, 174);
+}
+ h4{
+    background-color: rgb(19, 40, 70);
+    color: white;
+    text-align: center;
+ }
+ 
+ #ok, #clear_task_btn{
+    background-color: rgb(59, 168, 157);
+    color: black;
+   
+}
+
+#ok:hover, #clear_task_btn:hover{
+    background-color: rgb(13, 70, 64);
+    color: white;
+}
+#new_task, #task_filter{
+    background-color: rgb(192, 243, 243);
+    color: white;
+}
+#new_task:hover, #task_filter:hover{
+    background-color: white;
+}
+#tasks{
+    background-color: rgb(34, 110, 103);
+    color: white;
+}
