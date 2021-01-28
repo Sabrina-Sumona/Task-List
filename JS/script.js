@@ -11,7 +11,7 @@ taskList.addEventListener('click', removeTask);
 clearBtn.addEventListener('click', clearTask);
 filter.addEventListener('keyup', filterTask);
 document.addEventListener('DOMContentLoaded', getTasks);
-//DEfine functions
+//Define functions
 //Add task
 function addTask(e) {
     if (taskInput.value === '') {
